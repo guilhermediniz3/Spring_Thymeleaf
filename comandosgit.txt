@@ -1,0 +1,28 @@
+git fetch
+
+
+1) commit WIP
+git add . -A
+git commit -m"WIP: Parei no meio"
+git checkout OUTRA_BRANCH
+
+# vá para outra branch e faça o que precisar
+git checkout OUTRA_BRANCH
+
+# volte para branch anterior
+git checkout BRANCH_ANTERIOR
+
+# volte o último commit mas mantenha as informações
+git reset HEAD~1
+2) stash
+git stash save "Parei no meio"
+
+# vá para outra branch e faça o que precisar
+git checkout OUTRA_BRANCH
+
+# volte para branch anterior
+git checkout BRANCH_ANTERIOR
+
+# recupere o último stash
+git stash list
+git stash pop
