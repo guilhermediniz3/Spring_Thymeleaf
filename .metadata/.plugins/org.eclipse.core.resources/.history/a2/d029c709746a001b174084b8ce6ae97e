@@ -1,0 +1,18 @@
+package com.mballem.curso.boot.domain;
+
+import javax.persistence.*;
+
+@Entity
+@Table(name="Endereços")
+public class Endereço extends AbstractEntity<Long> {
+	@Column(nullable = false)
+	private String logradouro;
+	@Column(nullable = false)
+	private String bairro;
+	@Column(nullable = false, length = 2)
+	@Enumerated(EnumType.STRING)
+	private UF uf;
+	private String cep;
+	
+
+}

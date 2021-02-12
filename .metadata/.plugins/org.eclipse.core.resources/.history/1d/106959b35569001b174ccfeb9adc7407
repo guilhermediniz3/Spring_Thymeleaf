@@ -1,0 +1,19 @@
+package com.mballem.curso.boot.web.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+@Controller
+@RequestMapping("/funcionarios")
+public class FuncionarioController {
+	@GetMapping("/cadastrar")
+	public String cadastrar() {
+		return "/funcionario/cadastro";
+		
+	}
+	
+	@GetMapping("/listar")
+	public String listar() {
+		return "/funcionario/lista";
+		
+	}
+
+}

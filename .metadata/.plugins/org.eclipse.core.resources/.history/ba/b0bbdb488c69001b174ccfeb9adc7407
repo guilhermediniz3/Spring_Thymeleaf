@@ -1,0 +1,20 @@
+package com.mballem.curso.boot.domain;
+
+import java.io.Serializable;
+
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+
+public class AbstractEntity<ID extends Serializable> implements Serializable {
+	@id @GeneratedValue(strategy= GenerationType.IDENTITY)
+	private ID id;
+
+	public ID getId() {
+		return id;
+	}
+
+	public void setId(ID id) {
+		this.id = id;
+	}
+
+}
