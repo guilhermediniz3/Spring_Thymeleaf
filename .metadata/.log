@@ -1,0 +1,712 @@
+!SESSION 2021-02-06 17:30:55.013 -----------------------------------------------
+eclipse.buildId=4.9.0.202012132054
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-02-06 17:31:01.672
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-02-06 17:31:01.672
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5274830e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6a0ee80,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-02-06 17:31:06.923
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Poseidon'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-06 18:11:40.558
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-06 18:11:40.567
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@32a5bf44[org.springframework.tooling.boot.ls:1.24.0.202012131915(id=578)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-06 18:11:40.576
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-06 18:11:40.603
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-06 18:11:43.000
+!MESSAGE Boot LS startup time from start to initialized: 2413ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-06 18:11:43.071
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.QqvLQCesisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-06 18:11:43.087
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-06 18:11:43.098
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-06 18:11:43.106
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-06 18:11:43.111
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-06 18:11:43.119
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.QqvLQCes => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-06 18:11:43.127
+!MESSAGE classpath=80 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-06 18:11:43.138
+!MESSAGE buffering callback sts4.classpath.QqvLQCes demo-mvc false 80
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-06 18:11:43.143
+!MESSAGE executing callback sts4.classpath.QqvLQCes 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-06 18:11:43.169
+!MESSAGE executing callback sts4.classpath.QqvLQCes SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2021-02-06 18:13:18.872
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-02-06 18:37:32.479
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2086)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-02-06 19:21:28.839
+!MESSAGE [Info]	Angular language server process ID: 7548
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-02-06 19:21:28.849
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-02-06 19:21:28.857
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-02-06 19:21:28.864
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-02-06 19:21:30.523
+!MESSAGE [Error]	No config file for c:\sts-4.9.0.RELEASE\projetos\Spring-Thymeleaf\demo-mvc\src\main\resources\templates\departamento\lista.html
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-06 19:28:12.932
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.QqvLQCes
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-06 19:28:12.944
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.QqvLQCes
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-06 19:28:12.953
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-06 19:28:12.965
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.QqvLQCes => OK
+!SESSION 2021-02-07 11:46:29.028 -----------------------------------------------
+eclipse.buildId=4.9.0.202012132054
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-02-07 11:46:58.218
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-02-07 11:46:58.218
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7abd75fc,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@31b67d61,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-02-07 11:47:05.932
+!MESSAGE [Info]	Angular language server process ID: 8240
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-02-07 11:47:05.942
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-02-07 11:47:05.955
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-02-07 11:47:05.966
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-02-07 11:47:11.455
+!MESSAGE [Error]	No config file for c:\sts-4.9.0.RELEASE\projetos\Spring-Thymeleaf\demo-mvc\src\main\resources\templates\departamento\lista.html
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-02-07 11:47:11.637
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Poseidon'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 2 2 2021-02-07 11:47:22.119
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-07 11:47:51.956
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-07 11:47:51.965
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@2e319710[org.springframework.tooling.boot.ls:1.24.0.202012131915(id=578)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-07 11:47:51.978
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-07 11:47:52.034
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-07 11:47:52.789
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-07 11:47:52.802
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@2e319710[org.springframework.tooling.boot.ls:1.24.0.202012131915(id=578)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-07 11:47:52.813
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-07 11:47:56.413
+!MESSAGE Boot LS startup time from start to initialized: 3587ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-07 11:47:56.506
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.KzvBvOKfisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-07 11:47:56.515
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-07 11:47:56.523
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-07 11:47:56.528
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-07 11:47:56.534
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-07 11:47:56.539
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.KzvBvOKf => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-07 11:47:56.571
+!MESSAGE classpath=80 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-07 11:47:56.579
+!MESSAGE buffering callback sts4.classpath.KzvBvOKf demo-mvc false 80
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-07 11:47:56.584
+!MESSAGE executing callback sts4.classpath.KzvBvOKf 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-07 11:47:56.611
+!MESSAGE executing callback sts4.classpath.KzvBvOKf SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-02-07 11:49:14.432
+!MESSAGE [Error]	No config file for c:\sts-4.9.0.RELEASE\projetos\Spring-Thymeleaf\demo-mvc\src\main\resources\templates\departamento\cadastro.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-02-07 12:28:49.585
+!MESSAGE [Error]	No config file for c:\sts-4.9.0.RELEASE\projetos\Spring-Thymeleaf\demo-mvc\src\main\resources\templates\cargo\cadastro.html
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-02-07 16:46:59.605
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2086)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-07 18:06:27.599
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-07 18:06:27.619
+!MESSAGE classpath=105 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-07 18:06:27.633
+!MESSAGE buffering callback sts4.classpath.KzvBvOKf demo-mvc false 105
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-07 18:06:27.642
+!MESSAGE executing callback sts4.classpath.KzvBvOKf 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-07 18:06:27.675
+!MESSAGE executing callback sts4.classpath.KzvBvOKf SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-07 18:09:38.696
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-07 18:09:38.707
+!MESSAGE classpath=105 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-07 18:09:38.718
+!MESSAGE buffering callback sts4.classpath.KzvBvOKf demo-mvc false 105
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-07 18:09:38.727
+!MESSAGE executing callback sts4.classpath.KzvBvOKf 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-07 18:09:38.740
+!MESSAGE executing callback sts4.classpath.KzvBvOKf SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-02-07 18:37:19.134
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2086)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-02-07 19:43:33.019
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2086)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-07 20:08:52.558
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.KzvBvOKf
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-07 20:08:52.568
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.KzvBvOKf
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-07 20:08:52.577
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-07 20:08:52.587
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.KzvBvOKf => OK
+!SESSION 2021-02-08 20:24:57.803 -----------------------------------------------
+eclipse.buildId=4.9.0.202012132054
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-02-08 20:53:30.825
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-02-08 20:53:30.825
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4be3de36,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5c03eb4e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-08 20:53:50.395
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-08 20:53:50.407
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@4e370f52[org.springframework.tooling.boot.ls:1.24.0.202012131915(id=578)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-08 20:53:50.434
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-08 20:53:50.852
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-02-08 20:54:00.939
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Poseidon'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-08 20:54:05.386
+!MESSAGE Boot LS startup time from start to initialized: 14931ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-08 20:54:05.610
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.vfaqZkQIisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-08 20:54:05.649
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-08 20:54:05.665
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-08 20:54:05.682
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-08 20:54:05.699
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-08 20:54:05.711
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.vfaqZkQI => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-08 20:54:05.779
+!MESSAGE classpath=105 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-08 20:54:05.799
+!MESSAGE buffering callback sts4.classpath.vfaqZkQI demo-mvc false 105
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-08 20:54:05.816
+!MESSAGE executing callback sts4.classpath.vfaqZkQI 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-08 20:54:05.906
+!MESSAGE executing callback sts4.classpath.vfaqZkQI SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2021-02-08 22:00:36.434
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-02-08 22:09:26.830
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2086)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-08 22:21:23.250
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.vfaqZkQI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-08 22:21:23.261
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.vfaqZkQI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-08 22:21:23.271
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-08 22:21:23.279
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.vfaqZkQI => OK
+!SESSION 2021-02-11 21:31:29.965 -----------------------------------------------
+eclipse.buildId=4.9.0.202012132054
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-02-11 21:31:52.004
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-02-11 21:31:52.004
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4d93e5bf,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1c36ab22,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-02-11 21:32:04.103
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Poseidon'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:32:19.488
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:32:19.495
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@2c48eb31[org.springframework.tooling.boot.ls:1.24.0.202012131915(id=578)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:32:19.516
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:32:19.768
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:32:27.386
+!MESSAGE Boot LS startup time from start to initialized: 7854ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:32:28.065
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.oBeJaadhisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:32:28.076
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:32:28.089
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:32:28.098
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:32:28.107
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:32:28.114
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.oBeJaadh => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:32:28.124
+!MESSAGE classpath=105 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:32:28.140
+!MESSAGE buffering callback sts4.classpath.oBeJaadh demo-mvc false 105
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:32:28.154
+!MESSAGE executing callback sts4.classpath.oBeJaadh 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:32:28.193
+!MESSAGE executing callback sts4.classpath.oBeJaadh SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:32:31.315
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.oBeJaadh
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:32:31.326
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.oBeJaadh
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:32:31.337
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:32:31.347
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.oBeJaadh => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:32:38.214
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:32:38.220
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@2c48eb31[org.springframework.tooling.boot.ls:1.24.0.202012131915(id=578)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:32:38.226
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:32:40.268
+!MESSAGE Boot LS startup time from start to initialized: 2034ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:32:40.334
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.wUsAXDyNisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:32:40.340
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:32:40.346
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:32:40.352
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:32:40.359
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:32:40.364
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.wUsAXDyN => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:32:40.370
+!MESSAGE classpath=105 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:32:40.382
+!MESSAGE buffering callback sts4.classpath.wUsAXDyN demo-mvc false 105
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:32:40.387
+!MESSAGE executing callback sts4.classpath.wUsAXDyN 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:32:40.416
+!MESSAGE executing callback sts4.classpath.wUsAXDyN SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:32:41.251
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.wUsAXDyN
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:32:41.269
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.wUsAXDyN
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:32:41.286
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:32:41.301
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.wUsAXDyN => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:32:59.271
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:32:59.280
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@2c48eb31[org.springframework.tooling.boot.ls:1.24.0.202012131915(id=578)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:32:59.286
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:35:30.577
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:35:30.584
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@2c48eb31[org.springframework.tooling.boot.ls:1.24.0.202012131915(id=578)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:35:30.589
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:35:32.418
+!MESSAGE Boot LS startup time from start to initialized: 1823ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:35:32.483
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.jzPqJhFxisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:35:32.488
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:35:32.495
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:35:32.503
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:35:32.510
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:35:32.516
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.jzPqJhFx => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:35:32.521
+!MESSAGE classpath=105 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:35:32.531
+!MESSAGE buffering callback sts4.classpath.jzPqJhFx demo-mvc false 105
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:35:32.538
+!MESSAGE executing callback sts4.classpath.jzPqJhFx 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:35:32.560
+!MESSAGE executing callback sts4.classpath.jzPqJhFx SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2021-02-11 21:36:00.382
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:53:20.618
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.jzPqJhFx
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:53:20.624
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.jzPqJhFx
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:53:20.631
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:53:20.639
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.jzPqJhFx => OK
+!SESSION 2021-02-11 21:53:23.768 -----------------------------------------------
+eclipse.buildId=4.9.0.202012132054
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-02-11 21:53:30.188
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-02-11 21:53:30.188
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5300694d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7320750c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:53:35.081
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:53:35.088
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@2f4847d9[org.springframework.tooling.boot.ls:1.24.0.202012131915(id=578)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:53:35.095
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:53:35.140
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-02-11 21:53:38.667
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Poseidon'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:53:38.873
+!MESSAGE Boot LS startup time from start to initialized: 3767ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:53:39.026
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.pIcAZQwWisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:53:39.041
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:53:39.054
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:53:39.065
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:53:39.076
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:53:39.086
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.pIcAZQwW => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:53:39.097
+!MESSAGE classpath=105 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:53:39.113
+!MESSAGE buffering callback sts4.classpath.pIcAZQwW demo-mvc false 105
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:53:39.123
+!MESSAGE executing callback sts4.classpath.pIcAZQwW 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-11 21:53:39.188
+!MESSAGE executing callback sts4.classpath.pIcAZQwW SUCCESS [done]
